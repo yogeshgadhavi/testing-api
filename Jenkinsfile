@@ -8,6 +8,7 @@ pipeline {
       steps {
         bat 'mvn install deploy -P arm -Darm.target.name=localhost-bipin -Danypoint.username=bimehta -Danypoint.password=Mel2018a'
       }
+    }
     
       stage('Deploy CloudHub') {
       environment {
