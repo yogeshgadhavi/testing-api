@@ -165,7 +165,7 @@
        <repository>
          <id>internal.repo</id>
          <name>Internal repo</name>
-         <url>C:/ANZ/Repositories/</url>
+         <url>file:///C:/ANZ/Repositories/</url>
        </repository>
    </distributionManagement>
 	<repositories>
