@@ -2,15 +2,7 @@ pipeline {
   agent any
   stages {
           
-      stage('Deploy ARM') {
-      environment {
-        ANYPOINT_CREDENTIALS = credentials('anypoint.credentials')
-      }
-      steps {
-        bat 'mvn install deploy -P arm -Darm.target.name=localhost-bipin -Danypoint.username=bimehta -Danypoint.password=Mel2018a'
-      }
-    }
-    stage('Deploy CloudHub') {
+      stage('Deploy CloudHub') {
       environment {
         ANYPOINT_CREDENTIALS = credentials('anypoint.credentials')
       }
