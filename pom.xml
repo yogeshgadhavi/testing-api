@@ -23,7 +23,7 @@
 		<anypoint.username>bimehta</anypoint.username>
 		<anypoint.password>Mel2018a</anypoint.password>
 		<anypoint.businessGroup></anypoint.businessGroup>
-		<cloundhub.env>Development</cloundhub.env>
+		<cloundhub.env>Sandbox</cloundhub.env>
 		<anypoint.uri>https://anypoint.mulesoft.com</anypoint.uri>
 		
 		<arm.target.name>localhost-bipin</arm.target.name>
