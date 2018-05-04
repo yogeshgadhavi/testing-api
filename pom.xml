@@ -15,7 +15,7 @@
 		<mule.version>3.9.0</mule.version>
     	<mule.tools.version>1.2</mule.tools.version>
 		
-		<mule.runtime.community>true</mule.runtime.community>
+		 <mule.runtime.community>true</mule.runtime.community>
 		<anypoint.username>bimehta</anypoint.username>
 		<anypoint.password>Mel2018a</anypoint.password>
 		<anypoint.businessGroup></anypoint.businessGroup>
@@ -26,7 +26,6 @@
 		<arm.target.type>server</arm.target.type>
 		<arm.environment>Development</arm.environment>
 		<build.number>1</build.number>
-	    
 	</properties>
 
 	<build>
