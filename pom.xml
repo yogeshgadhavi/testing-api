@@ -161,7 +161,13 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
-
+<distributionManagement>
+       <repository>
+         <id>internal.repo</id>
+         <name>Internal repo</name>
+         <url>C:/ANZ/Repositories/</url>
+       </repository>
+   </distributionManagement>
 	<repositories>
           <repository>
             <id>Central</id>
