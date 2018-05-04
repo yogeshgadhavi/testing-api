@@ -28,7 +28,7 @@
 		
 		<arm.target.name>apprhel74mupoc08i</arm.target.name>
 		<arm.target.type>server</arm.target.type>
-		<arm.environment>Development</arm.environment>
+		<arm.environment>Sandbox</arm.environment>
 		<build.number>1</build.number>
 	</properties>
 
@@ -274,6 +274,7 @@
 							<businessGroup>${anypoint.businessGroup}</businessGroup>
 							<uri>${anypoint.uri}</uri>
 							<target>${arm.target.name}</target>
+							<environment>${arm.environment}</environment>
 							<!-- One of: server, serverGroup, cluster -->
 							<targetType>${arm.target.type}</targetType>
 						</configuration>
