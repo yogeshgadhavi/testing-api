@@ -1,12 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Deploy Standalone') {
-      steps {
-        bat 'mvn install deploy -P standalone'
-      }
-    }
-  
+    
       stage('Deploy ARM') {
       environment {
         ANYPOINT_CREDENTIALS = credentials('anypoint.credentials')
