@@ -27,7 +27,7 @@
 		<anypoint.uri>https://anypoint.mulesoft.com/cloudhub/#/console/home/servers</anypoint.uri>
 		
 		<arm.target.name>apprhel74mupoc08i</arm.target.name>
-		<arm.target.type>Server</arm.target.type>
+		<arm.target.type>server</arm.target.type>
 		<arm.environment>Sandbox</arm.environment>
 		<build.number>1</build.number>
 	</properties>
