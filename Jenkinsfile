@@ -6,7 +6,7 @@ pipeline {
         ANYPOINT_CREDENTIALS = credentials('anypoint.credentials')
       }
       steps {
-        bat 'mvn install deploy -P arm -Darm.target.name=localhost-bipin -Danypoint.username=bimehta -Danypoint.password=Mel2018a'
+        bat 'mvn install deploy -P arm -Darm.target.name=apprhel74mupoc08i -Danypoint.username=bimehta -Danypoint.password=Mel2018a'
       }
     }
     
