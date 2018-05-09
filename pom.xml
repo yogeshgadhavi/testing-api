@@ -267,16 +267,18 @@
 						<artifactId>mule-maven-plugin</artifactId>
 						<version>2.2.1</version>
 						<configuration>
+							
 							<deploymentType>arm</deploymentType>
-							<username>${anypoint.username}</username>
-							<password>${anypoint.password}</password>
-							<businessGroup>${anypoint.businessGroup}</businessGroup>
-							<uri>${anypoint.uri}</uri>
-							<target>${arm.target.name}</target>
-							<environment>Sandbox</environment>
-				    			<applicationName>task4</applicationName>
-							<!-- One of: server, serverGroup, cluster -->
-							<targetType>${arm.target.type}</targetType>
+							<uri>https://anypoint.mulesoft.com</uri>
+          <target>${arm.target.name}</target>
+          <targetType>${arm.target.type}</targetType>
+          <username>${anypoint.username}</username>
+          <password>${anypoint.password}</password>
+          <environment>Sandbox</environment>
+							
+							
+							
+							
 						</configuration>
 						<executions>
 							<execution>
