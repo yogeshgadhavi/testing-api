@@ -4,6 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mycompany</groupId>
 	<artifactId>testingapi</artifactId>
+	<version></version>
     <packaging>mule</packaging>
 	<name>Mule testing-api Application</name>
 
