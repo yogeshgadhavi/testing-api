@@ -25,7 +25,7 @@
 		<anypoint.businessGroup></anypoint.businessGroup>
 		<cloundhub.env>Sandbox</cloundhub.env>
 		<anypoint.uri>https://anypoint.mulesoft.com/</anypoint.uri>
-		
+		<businessGroup>ANZ-Architecture-Simplification</businessGroup>
 		<arm.target.name>apprhel74mupoc08i</arm.target.name>
 		<arm.target.type>server</arm.target.type>
 		<arm.environment>Sandbox</arm.environment>
@@ -273,7 +273,8 @@
 							<businessGroup>${anypoint.businessGroup}</businessGroup>
 							<uri>${anypoint.uri}</uri>
 							<target>${arm.target.name}</target>
-							<environment>${arm.environment}</environment>
+							<environment>Sandbox</environment>
+				    			<applicationName>task4</applicationName>
 							<!-- One of: server, serverGroup, cluster -->
 							<targetType>${arm.target.type}</targetType>
 						</configuration>
