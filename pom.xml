@@ -3,8 +3,8 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mycompany</groupId>
-	<artifactId>testing-api</artifactId>
-	<version>1.0.0</version>
+	<artifactId>testing</artifactId>
+	<version>1</version>
     <packaging>mule</packaging>
 	<name>Mule testing-api Application</name>
 
@@ -242,7 +242,7 @@
 		               <workerType>Micro</workerType>
 		               <redeploy>true</redeploy>
 		               <environment>Sandbox</environment>
-				    <application>target/testing-api-1.0.0.zip</application>
+				    <application>target/testing-1.zip</application>
 		            </configuration>
 		            <executions>
 		               <execution>
