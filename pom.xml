@@ -229,33 +229,31 @@
 			<id>cloudhub</id>
 			<build>
 				<plugins>
+					
 					<plugin>
-						<groupId>org.mule.tools.maven</groupId>
-						<artifactId>mule-maven-plugin</artifactId>
-						 <version>2.2.1</version>
-						<configuration>
-							<deploymentType>cloudhub</deploymentType>
-							<muleVersion>${mule.version}</muleVersion>
-							<username>${anypoint.username}</username>
-							<password>${anypoint.password}</password>
-							<applicationName>${artifactId}</applicationName>
-							<environment>${cloundhub.env}</environment>
-							<businessGroup>${anypoint.businessGroup}</businessGroup>
-							<region>${cloudhub.region}</region>
-							<uri>${anypoint.uri}</uri>
-							<workerType>${cloudhub.workerType}</workerType>
-							<workers>${cloudhub.workers}</workers>
-						</configuration>
-						<executions>
-							<execution>
-								<id>deploy</id>
-								<phase>deploy</phase>
-								<goals>
-									<goal>deploy</goal>
-								</goals>
-							</execution>
-						</executions>
-					</plugin>
+		            <groupId>org.mule.tools.maven</groupId>
+		            <artifactId>mule-maven-plugin</artifactId>
+		            <version>2.2.1</version>
+		            <configuration>
+		               <deploymentType>cloudhub</deploymentType>
+		               <muleVersion>${mule.version}</muleVersion>
+		               <username>${anypoint.username}</username>
+				<password>${anypoint.password}</password>
+		               <workerType>Micro</workerType>
+		               <redeploy>true</redeploy>
+		               <environment>Sandbox</environment>
+		            </configuration>
+		            <executions>
+		               <execution>
+		                  <id>deploy</id>
+		                  <phase>deploy</phase>
+		                  <goals>
+		                     <goal>deploy</goal>
+		                  </goals>
+		               </execution>
+		            </executions>
+		         </plugin>			
+					
 				</plugins>
 			</build>
 		</profile>
