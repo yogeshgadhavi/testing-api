@@ -242,7 +242,7 @@
 		               <workerType>Micro</workerType>
 		               <redeploy>true</redeploy>
 		               <environment>Sandbox</environment>
-				    <application>target/testing-1.0.0-snapshot.zip</application>
+				    <applicationName>${artifactId}</applicationName>
 		            </configuration>
 		            <executions>
 		               <execution>
