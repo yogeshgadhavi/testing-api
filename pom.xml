@@ -242,6 +242,7 @@
 		               <workerType>Micro</workerType>
 		               <redeploy>true</redeploy>
 		               <environment>Sandbox</environment>
+				    <application>target/${project.artifactId}-${project.version}.zip</application>
 		            </configuration>
 		            <executions>
 		               <execution>
