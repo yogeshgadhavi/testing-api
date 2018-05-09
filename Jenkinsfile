@@ -7,7 +7,7 @@ pipeline {
         ANYPOINT_CREDENTIALS = credentials('anypoint.credentials')
       }
       steps {
-        bat 'mvn deploy -P arm -Darm.target.name=apprhel74mupoc08i -Danypoint.username=bimehta -Danypoint.password=Mel2018a'
+        bat 'mvn deploy -P arm -Darm.target.name=local-3.9.0-ee -Danypoint.username=bimehta -Danypoint.password=Mel2018a'
       }
     }
     
