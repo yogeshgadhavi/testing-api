@@ -27,7 +27,7 @@
 		<anypoint.uri>https://anypoint.mulesoft.com</anypoint.uri>
 		<businessGroup>ANZ-Architecture-Simplification</businessGroup>
 		<arm.target.name></arm.target.name>
-		<arm.target.type>server</arm.target.type>
+		<arm.target.type>gateway</arm.target.type>
 		<arm.environment>Sandbox</arm.environment>
 		<build.number>1</build.number>
 	</properties>
