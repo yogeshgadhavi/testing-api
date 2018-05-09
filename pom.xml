@@ -242,7 +242,7 @@
 		               <workerType>Micro</workerType>
 		               <redeploy>true</redeploy>
 		               <environment>Sandbox</environment>
-				    <application>target/testing-1.zip</application>
+				    <application>target/testing.zip</application>
 		            </configuration>
 		            <executions>
 		               <execution>
