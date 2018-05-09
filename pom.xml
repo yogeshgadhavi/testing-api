@@ -242,7 +242,7 @@
 		               <workerType>Micro</workerType>
 		               <redeploy>true</redeploy>
 		               <environment>Sandbox</environment>
-				    <applicationName>${artifactId}</applicationName>
+				    <applicationName>target/${artifactId}-${version}</applicationName>
 		            </configuration>
 		            <executions>
 		               <execution>
