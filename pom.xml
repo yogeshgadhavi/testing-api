@@ -24,7 +24,7 @@
 		<anypoint.password>Mel2018a</anypoint.password>
 		<anypoint.businessGroup></anypoint.businessGroup>
 		<cloundhub.env>Sandbox</cloundhub.env>
-		<anypoint.uri>https://anypoint.mulesoft.com</anypoint.uri>
+		<anypoint.uri>https://anypoint.mulesoft.com/cloudhub</anypoint.uri>
 		<businessGroup>ANZ-Architecture-Simplification</businessGroup>
 		<arm.target.name></arm.target.name>
 		<arm.target.type>server</arm.target.type>
