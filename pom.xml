@@ -14,7 +14,7 @@
 
 		<mule.version>3.9.0</mule.version>
     	<mule.tools.version>1.1</mule.tools.version>
-		
+		<mule.home>${MULE_HOME}</mule.home>
 	    <jdkName>JavaSE-1.8</jdkName>
         <jdk.version>1.8</jdk.version>
 	    
