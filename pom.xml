@@ -22,7 +22,7 @@
 		 <mule.runtime.community>true</mule.runtime.community>
 		<anypoint.username>bimehta</anypoint.username>
 		<anypoint.password>Mel2018a</anypoint.password>
-		<anypoint.businessGroup>ANZ-Architecture-Simplification/devops</anypoint.businessGroup>
+		<anypoint.businessGroup>ANZ-Architecture-Simplification/</anypoint.businessGroup>
 		<cloundhub.env>Sandbox</cloundhub.env>
 		<anypoint.uri>https://anypoint.mulesoft.com</anypoint.uri>
 		<businessGroup></businessGroup>
