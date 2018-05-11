@@ -243,7 +243,7 @@
 		               <workerType>Micro</workerType>
 		               <redeploy>true</redeploy>
 		               <environment>Sandbox</environment>
-				    <applicationName>testingapi</applicationName>
+				    <applicationName>${artifactId}</applicationName>
 		            </configuration>
 		            <executions>
 		               <execution>
