@@ -25,7 +25,7 @@
 		<anypoint.businessGroup></anypoint.businessGroup>
 		<cloundhub.env>Sandbox</cloundhub.env>
 		<anypoint.uri>https://anypoint.mulesoft.com</anypoint.uri>
-		<businessGroup>ANZ-Architecture-Simplification/devops</businessGroup>
+		<businessGroup>/devops</businessGroup>
 		<arm.target.name>apprhel74mupoc08i</arm.target.name>
 		<arm.target.type>server</arm.target.type>
 		<arm.environment>Sandbox</arm.environment>
