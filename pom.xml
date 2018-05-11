@@ -22,10 +22,10 @@
 		 <mule.runtime.community>true</mule.runtime.community>
 		<anypoint.username>bimehta</anypoint.username>
 		<anypoint.password>Mel2018a</anypoint.password>
-		<anypoint.businessGroup></anypoint.businessGroup>
+		<anypoint.businessGroup>ANZ-Architecture-Simplification/devops</anypoint.businessGroup>
 		<cloundhub.env>Sandbox</cloundhub.env>
 		<anypoint.uri>https://anypoint.mulesoft.com</anypoint.uri>
-		<businessGroup>ANZ-Architecture-Simplification/</businessGroup>
+		<businessGroup></businessGroup>
 		<arm.target.name>apprhel74mupoc08i</arm.target.name>
 		<arm.target.type>server</arm.target.type>
 		<arm.environment>Sandbox</arm.environment>
@@ -268,7 +268,7 @@
 						<artifactId>mule-maven-plugin</artifactId>
 						<version>2.2.1</version>
 						<configuration>
-							
+							<businessGroup>${anypoint.businessGroup}</businessGroup>
 							<deploymentType>arm</deploymentType>
 							<uri>https://anypoint.mulesoft.com</uri>
           <target>${arm.target.name}</target>
