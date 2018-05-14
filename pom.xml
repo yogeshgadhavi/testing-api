@@ -243,7 +243,8 @@
 		               <workerType>Micro</workerType>
 		               <redeploy>true</redeploy>
 		               <environment>Sandbox</environment>
-				    <applicationName>${artifactId}</applicationName>
+				    <application>target/${project.artifactId}-${project.version}.zip</application>
+ 				<applicationName>cloudhub-${project.artifactId}</applicationName>
 		            </configuration>
 		            <executions>
 		               <execution>
