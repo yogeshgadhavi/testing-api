@@ -26,7 +26,7 @@
 		<cloundhub.env>Sandbox</cloundhub.env>
 		<anypoint.uri>https://anypoint.mulesoft.com</anypoint.uri>
 		<businessGroup></businessGroup>
-		<arm.target.name>apprhel74mupoc08i</arm.target.name>
+		<arm.target.name>apprhel74mupoc08-mule4</arm.target.name>
 		<arm.target.type>server</arm.target.type>
 		<arm.environment>Sandbox</arm.environment>
 		<build.number>1</build.number>
